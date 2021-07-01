@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-section{
+    background-image: url(images/Untitled\ design.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar-nav{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.navbar-toggler{
+    border: 2px solid rgb(250, 250, 250) !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+.navbar-toggler-icon {
+    background-color: white;
+}
+.nav-link{
+    margin:0 20px;
+    color: white !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: orangered;
+}
+.nav-button{
+    max-width: 130px;
+}
+.nav-button:hover{
+    background-color: rgb(250, 52, 2);
+}
+@media (max-width:992px) {
+    .nav-link{
+        color: black !important;
+    }
+    .toggle-text{
+        background-color: white;
+        padding: 10px;
+    }
+}
+.top-banner{
+    min-height: 500px;
+}
+.social-media-button{
+    margin-top: 10vh;
+}
+.social-media-button a{
+    margin: 0 10px;
+}
+.side-nav{
+    position: fixed;
+    right: 0;
+    top: 20%;
+    bottom: auto;
+}
+.side-nav a i{
+    color: white !important;
+    padding: 5px;
+    margin: 5px;
+    background: #000000;
+    font-size: 20px;
+}
+.arrow img{
+    height: 30px;
+}
+.share-button{
+    border: none;
+    padding: 3px 12px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #F8A22F;
+    color: white;
+    font-weight: bold;
+}
+.share-button:hover{
+    box-shadow: 5px 5px 10px rgb(150, 150, 150);
+}
+.menu i{
+    color: #F8A22F;
+    margin-right: 10px;
+}
+.menu p{
+    font-size: 13px;
+    margin-left: 25px;
+}
+.menu-title{
+    text-decoration: underline;
+    text-decoration-color: #F8A22F;
+    text-underline-offset: 10px;
+}
+.plan-section{
+    background-image: url(images/plan-bg.png);
+    background-position: center;
+    height: 550px;
+    margin-bottom: 100px;
+}
+.plan-title{
+    text-align: center;
+    padding: 50px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.plans{
+    min-height: 400px;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-position: top;
+    position: relative;
+}
+.plan-1{
+    background-image: url(images/pizza-2000600_1920@1X.png);
+}
+.plan-2{
+    background-image: url(images/pizza-2068272_1920@1X.png);
+}
+.offer{
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+.offer span{
+    color: #F8A22F;
+    font-size: 30px;
+}
+.contact-section{
+    padding: 30px 30px 0 30px;
+    position: relative;
+}
+.contact-title{
+    text-decoration: underline;
+    text-decoration-color: #F8A22F;
+    text-underline-offset: 10px;
+}
+.form{
+    background-image: url(images/form-bg.png);
+    padding: 50px 0;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.input{
+    width: 260px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.submit-button{
+    border: none;
+    padding: 5px 30px;
+    margin-top: 5px;
+    background-color:white ;
+    color: #F8A22F;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.map-section{
+    margin-top: -200px;
+}
+.map iframe{
+    width: 100%;
+    min-height: 350px;
+}
+.footer-section{
+    background-image: url(images/pizza-3007395_1920@1X.png);
+    padding: 30px;
+    padding-bottom: 0;
+    position: relative;
+}
+.footer-section .column{
+    color: white;
+    padding: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+.link a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.follow a i{
+    color: #F8A22F;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.follow a i:hover{
+    background-color: #F8A22F;
+    color: rgb(8, 8, 8);
+}
+.copyright{
+    color: white;
+    font-size: 15px;
+    background-color: #050505;
+    padding: 5px;
+}
+.copyright a{
+    text-decoration: none;
+}
