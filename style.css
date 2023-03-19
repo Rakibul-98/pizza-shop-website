@@ -40,18 +40,18 @@ body{
         color: black !important;
     }
     .toggle-text{
-        background-color: white;
-        padding: 10px;
+        width: 50%;
     }
 }
 .top-banner{
     min-height: 500px;
 }
 .social-media-button{
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
 .social-media-button a{
     margin: 0 10px;
+    font-size: larger;
 }
 .side-nav{
     position: fixed;
@@ -69,10 +69,12 @@ body{
 .arrow img{
     height: 30px;
 }
+.text button{
+    border-radius: 20px;
+}
 .share-button{
     border: none;
     padding: 3px 12px;
-    border-radius: 30px;
     text-align: center;
     background-color: #F8A22F;
     color: white;
